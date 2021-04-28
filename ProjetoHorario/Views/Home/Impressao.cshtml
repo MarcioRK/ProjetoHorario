@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Impressão</title>
+    <link rel="stylesheet" type="text/css" href="~/css/Index.css" />
+</head>
+<body>
+    <header>
+        <div id="CefsaLogo">
+            <a asp-action="Index"><img src="~/img/cefsaLOGO.png" /></a>
+        </div>
+    </header>
+
+    <main>
+        <table>
+            <tr>
+                <th>Turma {curso turma}</th>
+            </tr>
+
+            <tr>
+                <th>Horário</th>
+                <th>Segunda-feira</th>
+                <th>Terça-feira</th>
+                <th>Quarta-feira</th>
+                <th>Quinta-feira</th>
+                <th>Sexta-feira</th>
+                <th>Sábado</th>
+            </tr>
+
+            <tr>
+                <td>1º</td>
+                <td>2º</td>
+                <td>{horarios}</td>
+                <td>{horarios}</td>
+                <td>{horarios}</td>
+                <td>{info}</td>
+                <td>{info}</td>
+                <td>{info}</td>
+                <td>{info}</td>
+                <td>{info}</td>
+                <td>{info}</td>
+            </tr>
+
+            <tr>
+                <td>3º</td>
+                <td>4º</td>
+                <td>{horarios}</td>
+                <td>{horarios}</td>
+                <td>{info}</td>
+                <td>{info}</td>
+                <td>{info}</td>
+                <td>{info}</td>
+                <td>{info}</td>
+                <td>{info}</td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+</html>
